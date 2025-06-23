@@ -48,33 +48,25 @@ src/
 
 ### Prerequisites
 - Node.js 18+ 
-- pnpm (recommended) or npm
+- npm
 
 ### 1. Install Dependencies
 ```bash
-pnpm install
-# or
 npm install
 ```
 
 ### 2. Development Server
 ```bash
-pnpm dev
-# or
 npm run dev
 ```
 
 ### 3. Build for Production
 ```bash
-pnpm build
-# or  
 npm run build
 ```
 
 ### 4. Preview Production Build
 ```bash
-pnpm preview
-# or
 npm run preview
 ```
 
@@ -217,7 +209,7 @@ The `dist/` folder contains the production-ready files:
 ### Deploy Commands
 ```bash
 # Build for production
-pnpm build
+npm run build
 
 # Deploy to Vercel
 vercel --prod
